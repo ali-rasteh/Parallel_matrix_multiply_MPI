@@ -1,0 +1,11 @@
+
+
+
+Time elapsed for calculating output matrix is not measured correctly
+by using time() command because it measures time by integer values
+to show only seconds and not in details (for example milliseconds , etc).
+So I have used the clock() command to measure the elapsed time and it
+measures time in microseconds and then we can convert it to milliseconds.
+
+
+
