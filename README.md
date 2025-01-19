@@ -1,2 +1,33 @@
-# Parallel_matrix_multiply_MPI
-Parallel matrix multiply in MPI
+# Parallel Matrix Multiply in MPI
+
+This project implements parallel matrix multiplication using MPI (Message Passing Interface) in C.
+
+## Project Structure
+
+- `mpi_mm.c`: Main program file containing the implementation of parallel matrix multiplication.
+- `Makefile`: File for compiling the project.
+- `README.md`: Project documentation.
+
+## Requirements
+
+- MPI Library (e.g., OpenMPI)
+
+## Compilation
+
+To compile the program, use the following command:
+
+```sh
+make
+```
+
+## Usage
+To run the program, use the following command:
+```sh
+mpirun -np <number_of_processes> ./mpi_mm
+```
+
+Replace <number_of_processes> with the desired number of processes.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+Feel free to modify the content as needed.
