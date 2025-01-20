@@ -34,9 +34,3 @@ Replace `<number_of_processes>` with the desired number of processes.
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Feel free to modify the content as needed.
-
-Replace <number_of_processes> with the desired number of processes.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
