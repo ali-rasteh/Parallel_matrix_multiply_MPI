@@ -4,9 +4,9 @@ This project implements parallel matrix multiplication using MPI (Message Passin
 
 ## Project Structure
 
-- `mpi_mm.c`: Main program file containing the implementation of parallel matrix multiplication.
 - `Makefile`: File for compiling the project.
 - `README.md`: Project documentation.
+- `mpi_mm/mm.c`: Contains detailed implementation of matrix multiplication and timing functions.
 
 ## Requirements
 
@@ -21,13 +21,22 @@ make
 ```
 
 ## Usage
+
 To run the program, use the following command:
+
 ```sh
 mpirun -np <number_of_processes> ./mpi_mm
 ```
+
+Replace `<number_of_processes>` with the desired number of processes.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Feel free to modify the content as needed.
 
 Replace <number_of_processes> with the desired number of processes.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
-Feel free to modify the content as needed.
